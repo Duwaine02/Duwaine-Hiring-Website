@@ -1,4 +1,4 @@
-
+/* Reset and base styles as before */
 * {
   margin: 0;
   padding: 0;
@@ -22,18 +22,20 @@ body {
   padding: 20px;
 }
 
-
+/* Container */
 .wrap {
   max-width: 1100px;
   margin: auto;
 }
 
+/* Grid layout */
 .grid {
   display: grid;
   grid-template-columns: 280px 1fr;
   gap: 20px;
 }
 
+/* Header styles */
 header {
   display: flex;
   align-items: center;
@@ -54,7 +56,7 @@ header {
   align-items: flex-end;
 }
 
-
+/* Avatar */
 .avatar {
   width: 80px;
   height: 80px;
@@ -195,4 +197,50 @@ footer {
   font-size: 14px;
   color: var(--muted);
   text-align: center;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  /* Stack header elements vertically on small screens */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  /* Adjust header-info and header-side */
+  .header-info {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .header-side {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Change grid to single column for small screens */
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  /* Make avatar larger for better visibility on small screens */
+  .avatar {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  /* Adjust project layout for mobile */
+  .project {
+    flex-direction: column;
+  }
+
+  /* Make skills wrap better on small screens */
+  .skills {
+    justify-content: flex-start;
+  }
 }
