@@ -6,14 +6,13 @@
 }
 
 :root {
-     background-image: url('https://i.pinimg.com/736x/f4/12/e7/f412e72c534fdad8f43513ded6eef5b1.jpg');
+  --bg: url('https://i.pinimg.com/736x/f4/12/e7/f412e72c534fdad8f43513ded6eef5b1.jpg');
   --card: #fff;
   --primary: #2563eb;
   --text: #222;
   --muted: #666;
   --border: #e5e7eb;
 }
-
 body {
   font-family: Arial, sans-serif;
   background: var(--bg);
