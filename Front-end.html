@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Duwaine Julies — Software Developer</title>
+  <meta name="description" content="Duwaine Julies — Junior Software Developer. Portfolio, projects, skills and contact." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="card">
+      <div class="avatar" id="avatar">
+        <span id="initials">DJ</span>
+      </div>
+      <div class="header-info">
+        <h1 class="name">Duwaine Julies</h1>
+        <div class="title">Junior Software Developer • React | JavaScript | Frontend</div>
+        <p class="muted">I build responsive web apps and small full-stack projects. I enjoy clean UI, problem solving, and learning new tools.</p>
+        <div class="header-actions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="ghost" href="resume.pdf" download>Download CV</a>
+        </div>
+      </div>
+      <div class="header-side">
+        <div class="pill">Available for freelance</div>
+        <div class="location">Cape Town, South Africa</div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <!-- LEFT COLUMN -->
+      <aside>
+        <div class="card section">
+          <h3>Contact</h3>
+          <div class="info-list">
+            <div class="info-item"><b>Email</b><div>duwainewaine02@gmail.com</div></div>
+            <div class="info-item"><b>Phone</b><div>+27 621146118</div></div>
+            <div class="info-item"><b>GitHub</b><div><a href="https://github.com/your-username" target="_blank" rel="noopener" class="muted">https://github.com/Duwaine02</a></div></div>
+        </div>
+
+        <div class="card section">
+          <h3>Skills</h3>
+          <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Git</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">UI/UX Basics</div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h3>Tools</h3>
+          <div class="skills">
+            <div class="skill">VS Code</div>
+            <div class="skill">Chrome DevTools</div>
+            <div class="skill">Figma</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Netlify / Vercel</div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h3>Languages</h3>
+          <div class="info-list">
+            <div class="info-item"><b>English</b><div>Full professional</div></div>
+            <div class="info-item"><b>Afrikaans</b><div>Conversational</div></div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT COLUMN -->
+      <section>
+        <div class="card section">
+          <h3>About</h3>
+          <div class="section-content">
+            <p>Hi — I’m Duwaine, a junior software developer with a strong foundation in frontend development and a growing interest in full-stack projects. I love building simple, accessible interfaces and learning new tools that help me deliver better user experiences.</p>
+          </div>
+        </div>
+
+        <div id="projects" class="card section">
+          <h3>Projects</h3>
+          <div class="section-content">
+            <div class="project">
+              <div class="project-thumb">P1</div>
+              <div class="project-info">
+                <h4 class="project-title">PodCast-app</h4>
+                <div class="meta">HTML • CSS • JavaScript • React  </div>
+                <p class="muted">A mobile-friendly blackjack game with responsive layout and interactive controls. Built to practice DOM manipulation and game logic.</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-thumb">P2</div>
+              <div class="project-info">
+                <h4 class="project-title">Cache Bank Landing Page</h4>
+                <div class="meta">HTML • CSS • JavaScript</div>
+                <p class="muted">A responsive landing page for a business banking concept. Focused on clean layout, clear CTAs and fast performance.</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-thumb">P3</div>
+              <div class="project-info">
+                <h4 class="project-title">Agile Board App</h4>
+                <div class="meta">Vanilla JS • LocalStorage</div>
+                <p class="muted">A kanban-style task board with theme toggle and persistence. Built to practice architecture, events and UI state management.</p>
+              </div>
+            </div>
+
+            <div class="more-projects"><a class="btn" href="https://github.com/Duwaine02" target="_blank" rel="noopener">Browse on GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h3>Education</h3>
+          <div class="section-content">
+            <div class="edu-item"><strong>Codespace — Software Developer Course</strong><div class="muted">2024 — 2025</div></div>
+            <div class="edu-item"><strong>National Senior Certificate</strong><div class="muted">Matric — 2021</div></div>
+          </div>
+        </div>
+
+        <div class="card section">
+  <h3>Contact & Hire</h3>
+  <div class="section-content">
+    <p class="muted">
+      I’m available for freelance & junior developer roles. Email me at 
+      <a href="mailto:duwainewaine02@gmail.com">duwainewaine02@gmail.com</a> 
+    </p>
+    <form id="contactForm" method="POST">
+      <input id="name" name="name" type="text" placeholder="Your Name" required />
+      <input id="email" name="email" type="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" rows="3" placeholder="Message" required></textarea>
+      <div class="form-actions">
+        <button type="submit" class="btn">Send</button>
+        <button type="button" id="clearBtn" class="ghost">Clear</button>
+      </div>
+    </form>
+    <div id="note" class="muted">Form uses Formspree to send messages directly.</div>
+  </div>
+</div>
+
+
+        <footer>
+          Built with ❤️ • <span id="year"></span> • <a class="muted" href="https://github.com/your-username" target="_blank" rel="noopener">https://github.com/Duwaine02</a>
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
