@@ -6,6 +6,7 @@
 }
 
 :root {
+     background-image: url('https://i.pinimg.com/736x/f4/12/e7/f412e72c534fdad8f43513ded6eef5b1.jpg');
   --bg: linear-gradient(to right, #457de4, #b073d8);
   --card: #fff;
   --primary: #2563eb;
