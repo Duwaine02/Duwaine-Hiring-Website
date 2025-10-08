@@ -36,7 +36,7 @@ if (form) {
     }
   });
 
-  // Optional: Clear form
+
   const clearBtn = document.getElementById("clearBtn");
   clearBtn.addEventListener("click", () => form.reset());
 }
